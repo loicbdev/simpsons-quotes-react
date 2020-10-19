@@ -2,9 +2,6 @@ import React from 'react';
 import './QuoteCard.css';
 import PropTypes from 'prop-types';
 
-import React from 'react';
-import './QuoteCard.css';
-
 class QuoteCard extends React.Component {
   constructor(props) {
     super(props);

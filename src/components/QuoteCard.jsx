@@ -1,6 +1,5 @@
 import React from 'react';
 import './QuoteCard.css';
-import PropTypes from 'prop-types';
 
 function QuoteCard ({quote}){
   return(
@@ -15,11 +14,5 @@ function QuoteCard ({quote}){
     </div>
   );
 }
-
-
-QuoteCard.propTypes = {
-  characterFirstName: PropTypes.string.isRequired,
-  characterLastName: PropTypes.string.isRequired,
-};
 
 export default QuoteCard;

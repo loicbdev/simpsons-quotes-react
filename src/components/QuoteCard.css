@@ -11,24 +11,5 @@
 .QuoteCard img {
   display: flex;
   max-height: 120px;
-  margin-right: 1.5rem;
-}
-
-.QuoteCard blockquote {
-  margin: 0 0 1rem 0;
-}
-
-.QuoteCard figcaption p {
-  margin: 0.125rem 0 0 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.QuoteCard figcaption p span {
-  color: #eee;
-}
-
-.QuoteCard figcaption p span.is-favorite {
-  color: #ecc94b;
+  margin: 1.5rem;
 }
